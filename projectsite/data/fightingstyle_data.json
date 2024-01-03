@@ -1,0 +1,52 @@
+{
+    "fightingstyle":[
+    {
+        "name": "Combat",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/7c/Combat.png/revision/latest?cb=20230119064422"
+    },
+    {
+        "name": "Dark Step",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/39/Dark_Step.png/revision/latest?cb=20220228201917"
+    },
+    {
+        "name": "Electric",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/2f/Electric.png/revision/latest?cb=20220228215637"
+    },
+    {
+        "name": "Water Kung Fu",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/8f/Water_Kung_Fu.png/revision/latest?cb=20220228233922"
+    },
+    {
+        "name": "Dragon Breath",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/32/Dragon_Breath.png/revision/latest?cb=20220228202047"
+    },
+    {
+        "name": "Superhuman",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/a/ad/Superhuman.png/revision/latest?cb=20220228215748"
+    },
+    {
+        "name": "Death Step",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/89/Death_Step.png/revision/latest?cb=20220228233624"
+    },
+    {
+        "name": "Sharkman Karate",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/b/b3/Sharkman_Karate.png/revision/latest?cb=20220228233224"
+    },
+    {
+        "name": "Electric Claw",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/00/Electric_Claw.png/revision/latest?cb=20220228215956"
+    },
+    {
+        "name": "Dragon Talon",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/e/e9/Dragon_Talon.png/revision/latest?cb=20220228215538"
+    },
+    {
+        "name": "Godhuman",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/41/Godhuman.png/revision/latest?cb=20220913103851"
+    },
+    {
+        "name": "Sanguine Art",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/83/Sanguine_Art.png/revision/latest?cb=20231025151119"
+    }
+]
+}

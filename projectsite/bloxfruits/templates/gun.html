@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Gun
+{% endblock %}
+
+
+{% block navbar %}
+    <section class="navbar">
+        <a href="{% url 'home' %}" class="btn" > Home </a>
+        <a href="{% url 'blox-fruit' %}" class="btn"> Blox Fruits </a>
+        <a href="{% url 'fighting-style' %}" class="btn"> Fighting Styles </a>
+        <a href="{% url 'sword' %}" class="btn"> Swords </a>
+        <a href="{% url 'gun' %}" class="btn" id="active"> Guns </a>
+        <a href="{% url 'player' %}" class="btn"> Players </a>
+
+        {% if user.is_authenticated %}
+            <a href="/logout" class="login-logout" onclick="return confirmLogout()">Sign Out</a>
+            <script>
+                function confirmLogout() {
+                    var result = confirm("Are you sure you want to sign out?");
+                    if (result) {
+                        alert("Logged out successfully!");
+                    }
+                    return result;
+                }
+            </script>
+        {% else %}
+            <a href="/login" class="login-logout">Sign In</a>
+        {% endif %}
+
+    </section>
+{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+    <section class="cards-container">
+        {% for gun_outer in object_list %}
+            <div class="card-box">
+                <div class="card" data-rarity="{{ gun_outer.rarity }}">
+                    <div class="card-type" id="{{ bloxfruit.fruit_type|lower }}">
+                        <div class="card-image" id="{{ bloxfruit.fruit_type|lower }}-img">
+                            {% for gun_inner in gun_data %}
+                                {% if gun_inner.name == gun_outer.name %}
+                                    <img src="{{ gun_inner.image_url }}" alt="{{ gun_inner.name }} Image">
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                        <div class="card-name">
+                            <h2 class="sbs">{{ gun_outer.name }}</h2>
+                            <hr />
+                        </div>
+                        <div class="card-rarity">
+                            <h3 class="rarity">Rarity:</h3>
+                            <h3 class="rarity" id="rare-text">{{ gun_outer.rarity }}</h3>
+                        </div>
+                        <table class="card-stats">
+                            <tbody>
+                                <tr>
+                                    <th>Type: Gun </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+    <div>
+        {% include 'includes/pagination.html' %}
+    </div>
+
+{% else %}
+    <div class="login-message">
+        <p>Please <a href="/login">Sign In</a> to view more content.</p>
+    </div>
+{% endif %}
+
+{% endblock %}

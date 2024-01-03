@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Lucidatypewriter, monospace;
+  }
+
+body {
+    /* background-color: #d3d3d3; */
+    background-image: url('../images/bg4.jpg');
+    background-size: cover; /* This property ensures the image covers the entire body */
+    background-position: center;
+    background-attachment: fixed; /* Set the background position as fixed */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* REGISTRATION */
+/* Add styling for the registration form */
+.form-group {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.9);  /* Adjust the alpha value */
+    padding: 20px;  /* Add some padding for better visibility */
+    border-radius: 10px;  /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Add a subtle box shadow */
+}
+
+/* Style the form fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Adjust the width to account for padding */
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style the submit button */
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+p {
+    margin-top: 10px;
+}
+p a {
+    color: #28a745;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+main {
+    min-height: 80vh;
+}
+/* HOME.HTML */
+body {
+    font-family: 'Roboto Slab', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background color */
+    color: #333; /* Default text color */
+}
+
+.navbar {
+    background-color: #ff8c00;
+    padding: 15px; /* Adjust the padding as needed */
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d97700; /* Change the color on hover */
+}
+
+.navbar #active {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* LOGIN LOGOUT */
+.login-logout {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff; /* Text color for the links */
+    background-color: #007bff; /* Background color for the links */
+    border-radius: 5px;
+    margin-left: 10px; /* Add margin to separate the links */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    float: right; /* Float the links to the right */
+}
+
+.login-logout:hover {
+    background-color: #0056b3; /* Hover background color for the links */
+}
+
+/* LOGIN MESSAGE */
+.login-message {
+    text-align: center;
+    margin-top: 50px; /* Adjust the margin to center vertically */
+    padding: 20px;
+    background-color: #f8d7da; /* Red background color, you can customize */
+    color: #721c24; /* Dark red text color, you can customize */
+    border: 1px solid #f5c6cb; /* Border color, you can customize */
+    border-radius: 5px;
+}
+
+.login-message a {
+    color: #721c24; /* Dark red link color, you can customize */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.login-message a:hover {
+    color: #c82333; /* Lighter red on hover, you can customize */
+}
+
+.anime-theme {
+    max-width: 705px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background color for the anime main content */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff8c00; /* Orange button color for the anime theme */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d17d00; /* Button color on hover */
+}
+
+/*FOOTER*/
+footer {
+    /* position: fixed; 
+    height: 20vh;  */
+    width: 100%;
+    background-color: #ff8c00;
+    color: white;
+    bottom: 0;
+    text-align: center;
+  }
+
+  /* Social Icons for footer */
+  
+.social-icons a {
+    color: white;
+    text-decoration: none; 
+    /* Add other styling properties as needed */
+}
+  
+  /* Hover effect for the links */
+.social-icons a:hover {
+    color: #ffffff; /* Change color on hover if desired */
+    /* Add additional hover effects */
+}
+/* Add additional styling if needed */
+
+/* CARDS */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.card-box {
+    margin: 10px;
+}
+
+.card {
+    width: 250px;
+    height: 400px; /* Set a fixed height for all cards */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-type {
+    margin-bottom: 10px;
+}
+
+.card-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Increased border radius for a smoother look */
+    margin-bottom: 10px;
+    background-color: #6c757d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect on hover */
+}
+
+/* Scale the image up a bit on hover */
+.card-image img:hover {
+    transform: scale(1.05);
+}
+
+.card-name h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-rarity h3 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.card-location h3 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.card-stats {
+    width: 100%;
+}
+
+.card-stats th,
+.card-stats td {
+    padding: 5px;
+    text-align: left;
+}
+
+.card-stats th {
+    font-weight: bold;
+}
+
+
+/* Apply background color based on rarity */
+.card[data-rarity="Common"] {
+    background-color: #ccc;
+}
+
+.card[data-rarity="Uncommon"] {
+    background-color: lightblue;
+}
+
+.card[data-rarity="Legendary"] {
+    background-color: violet;
+}
+
+.card[data-rarity="Mythical"] {
+    background-color: #ff474c;
+}
+
+/* FIGHTING STYLE COLOR */
+.card[data-location="First Sea"] {
+    background-color: lightgreen;
+}
+
+.card[data-location="Second Sea"] {
+    background-color: lightblue;
+}
+
+.card[data-location="Third Sea"] {
+    background-color: violet;
+}
+
+/* PAGINATION */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .page-item {
+    margin: 0 5px;
+  }
+  
+  .page-link {
+    display: block;
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    color: #007bff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .page-link:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .page-item.active .page-link {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .page-item.disabled .page-link {
+    pointer-events: none;
+    background-color: #f8f9fa;
+    color: #6c757d;
+  }
+  
+  .page-link:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  /* Optional: Add some responsive styles */
+  @media (max-width: 576px) {
+    .pagination {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .page-item {
+      margin: 5px 0;
+    }
+  }
+  
+/* PLAYER TABLE */
+/* Content styles */
+.trainers-container {
+    margin: 20px;
+}
+  
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+.styled-table th,
+.styled-table td {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+  
+.styled-table th {
+    background-color: #333;
+    color: white;
+}
+
+/* PLAYER DELETE */
+.card-body {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 80%;
+}
+  
+.form-row {
+    margin-bottom: 20px;
+}
+  
+p {
+    font-size: 18px;
+    color: #333;
+}
+  
+.btn-primary {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.btn-primary:hover {
+    background-color: darkorange;
+}

@@ -1,0 +1,56 @@
+{
+    "gun":[
+    {
+        "name": "Slingshot",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/3f/Slingshot.png/revision/latest?cb=20230823131104"
+    },
+    {
+        "name": "Flintlock",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/5b/Flintlock.png/revision/latest?cb=20230823121443"
+    },
+    {
+        "name": "Musket",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/2b/Musket.png/revision/latest?cb=20230823130357"
+    },
+    {
+        "name": "Acidum Rifle",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/c2/Acidum_Rifle.png/revision/latest?cb=20230823120136"
+    },
+    {
+        "name": "Bizzare Rifle",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/2b/Bizarre_Rifle.png/revision/latest?cb=20230823120222"
+    },
+    {
+        "name": "Cannon",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/a/a6/Cannon.png/revision/latest?cb=20230823120033"
+    },
+    {
+        "name": "Refined Flintlock",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/a/a5/Refined_Flintlock.png/revision/latest?cb=20230823130832"
+    },
+    {
+        "name": "Refined Musket",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/3f/Refined_Musket.png/revision/latest?cb=20230823130834"
+    },
+    {
+        "name": "Refined Slingshot",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/8b/Refined_Slingshot.png/revision/latest?cb=20230823130836"
+    },
+    {
+        "name": "Bazooka",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/3f/Bazooka.png/revision/latest?cb=20230823115802"
+    },
+    {
+        "name": "Kabucha",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/b/bb/Kabucha.png/revision/latest?cb=20230823130048"
+    },
+    {
+        "name": "Serpent Bow",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/72/Serpent_Bow.png/revision/latest?cb=20230823130848"
+    },
+    {
+        "name": "Soul Guitar",
+        "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/97/Soul_Guitar.png/revision/latest?cb=20230823132703"
+    }
+]
+}

@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Blox Fruits
+{% endblock %}
+
+
+{% block navbar %}
+    <section class="navbar">
+        <a href="{% url 'home' %}" class="btn"> Home </a>
+        <a href="{% url 'blox-fruit' %}" class="btn"> Blox Fruits </a>
+        <a href="{% url 'fighting-style' %}" class="btn"> Fighting Styles </a>
+        <a href="{% url 'sword' %}" class="btn"> Swords </a>
+        <a href="{% url 'gun' %}" class="btn"> Guns </a>
+        <a href="{% url 'player' %}" class="btn" id="active" > Players </a>
+
+        {% if user.is_authenticated %}
+            <a href="/logout" class="login-logout" onclick="return confirmLogout()">Sign Out</a>
+            <script>
+                function confirmLogout() {
+                    var result = confirm("Are you sure you want to sign out?");
+                    if (result) {
+                        alert("Logged out successfully!");
+                    }
+                    return result;
+                }
+            </script>
+        {% else %}
+            <a href="/login" class="login-logout">Sign In</a>
+        {% endif %}
+    </section>
+{% endblock %}
+
+
+{% block content %}
+<br>
+<a href="{% url 'player-add' %}" class="btn btn-outline-primary">Add New Player</a><br>
+<section class="trainers-container">
+    <table class="styled-table">
+        <tbody>
+            <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Blox Fruit</th>
+            <th>Fighting Style</th>
+            <th>Sword</th>
+            <th>Gun</th>
+            <th>Update</th>
+            </tr>
+    
+            {% for object in object_list %}
+            <tr>
+                <td>{{ object.name }}</td>
+                <td>{{ object.player_type }}</td>
+                <td>{{ object.bloxfruit }}</td>
+
+                <td>
+                    {% for fightingstyle in object.fightingstyle.all %}
+                        {{ fightingstyle.name }}{% if not forloop.last %} <br> {% endif %}
+                    {% endfor %}
+                </td>
+
+                <td>
+                    {% for sword in object.sword.all %}
+                        {{ sword.name }}{% if not forloop.last %} <br> {% endif %}
+                    {% endfor %}
+                </td>
+
+                <td>
+                    {% for gun in object.gun.all %}
+                        {{ gun.name }}{% if not forloop.last %} <br> {% endif %}
+                    {% endfor %}
+                </td>
+                <td>
+                    <a href="player/{{ object.id }}" >Edit</a> |
+                    <a href="player/{{ object.id }}/delete" >Delete</a>
+                </td>
+
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+<div>
+    {% include 'includes/pagination.html' %}
+</div>
+{% endblock content %}

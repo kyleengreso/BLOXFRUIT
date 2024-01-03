@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Blox Fruits
+{% endblock %}
+
+
+{% block navbar %}
+    <section class="navbar">
+        <a href="{% url 'home' %}" class="btn" id="active"> Home </a>
+        <a href="{% url 'blox-fruit' %}" class="btn"> Blox Fruits </a>
+        <a href="{% url 'fighting-style' %}" class="btn"> Fighting Styles </a>
+        <a href="{% url 'sword' %}" class="btn"> Swords </a>
+        <a href="{% url 'gun' %}" class="btn"> Guns </a>
+        <a href="{% url 'player' %}" class="btn"> Players </a>
+
+        {% if user.is_authenticated %}
+            <a href="/logout" class="login-logout" onclick="return confirmLogout()">Sign Out</a>
+            <script>
+                function confirmLogout() {
+                    var result = confirm("Are you sure you want to sign out?");
+                    if (result) {
+                        alert("Logged out successfully!");
+                    }
+                    return result;
+                }
+            </script>
+        {% else %}
+            <a href="/login" class="login-logout">Sign In</a>
+        {% endif %}
+    </section>
+{% endblock %}
+
+{% block content %}
+    <section class="main-content anime-theme">
+        <p>Explore the world of BloxFruit with us! Discover your favorite fruits and enjoy.</p>
+        <!-- <a href="/register" class="btn btn-primary">Get Started</a> -->
+    </section>
+{% endblock %}

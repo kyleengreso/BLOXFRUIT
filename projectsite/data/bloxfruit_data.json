@@ -1,0 +1,162 @@
+{
+    "bloxfruit": [
+        {
+            "name": "Rocket",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/d/d4/RocketFruit.png/revision/latest?cb=20231027120039"
+        },
+        {
+            "name": "Spin",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/d/dc/SpinFruit.png/revision/latest/scale-to-width-down/350?cb=20231027120258"
+        },
+        {
+            "name": "Chop",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/51/ChopFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115331"
+        },
+        {
+            "name": "Spring",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/46/SpringFruit.png/revision/latest/scale-to-width-down/350?cb=20231027120418"
+        },
+        {
+            "name": "Bomb",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/7d/BombFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115320"
+        },
+        {
+            "name": "Smoke",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/68/SmokeFruit.png/revision/latest/scale-to-width-down/350?cb=20231027120224"
+        },
+        {
+            "name": "Spike",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/2d/SpikeFruit.png/revision/latest/scale-to-width-down/350?cb=20231027120251"
+        },
+        {
+            "name": "Quake",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/23/QuakeFruit.png/revision/latest?cb=20231027115754"
+        },
+        {
+            "name": "Buddah",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/6e/BuddhaFruit.png/revision/latest?cb=20231027115325"
+        },
+        {
+            "name": "Flame",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/b/b8/FlameFruit.png/revision/latest?cb=20231027115537"
+        },
+        {
+            "name": "Ice",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/74/IceFruit.png/revision/latest?cb=20231027115604"
+        },
+        {
+            "name": "Falcon",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/7d/FalconFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115527"
+        },
+        {
+            "name": "Sand",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/55/SandFruit.png/revision/latest/scale-to-width-down/350?cb=20231027120103"
+        },
+        {
+            "name": "Dark",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/c2/DarkFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115358"
+        },
+        {
+            "name": "Diamond",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/6d/DiamondFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115405"
+        },
+        {
+            "name": "Light",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/f/f8/LightFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115623"
+        },
+        {
+            "name": "Barrier",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/0a/BarrierFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115304"
+        },
+        {
+            "name": "Ghost",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/4e/GhostFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115804"
+        },
+        {
+            "name": "Rubber",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/b/bc/RubberFruit.png/revision/latest?cb=20231027120046"
+        },
+        {
+            "name": "Sound",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/f/f4/SoundFruit.png/revision/latest?cb=20231027120231"
+        },
+        {
+            "name": "Spider",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/82/SpiderFruit.png/revision/latest/scale-to-width-down/350?cb=20231027120241"
+        },
+        {
+            "name": "Phoenix",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/1/11/PhoenixFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115733"
+        },
+        {
+            "name": "Portal",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/e/e4/PortalFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115746"
+        },
+        {
+            "name": "Rumble",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/89/RumbleFruit.png/revision/latest/scale-to-width-down/350?cb=20231027120057"
+        },
+        {
+            "name": "Pain",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/3f/PainFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115724"
+        },
+        {
+            "name": "Blizzard",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/d/de/BlizzardFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115313"
+        },
+        {
+            "name": "T-Rex",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/e/ea/T-RexFruit.png/revision/latest?cb=20231226191220"
+        },
+        {
+            "name": "Love",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/5a/LoveFruit.png/revision/latest?cb=20231027115630"
+        },
+        {
+            "name": "Dough",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/9f/DoughFruit.png/revision/latest?cb=20231210155057"
+        },
+        {
+            "name": "Dragon",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/43/DragonFruit.png/revision/latest?cb=20231027115513"
+        },
+        {
+            "name": "Gravity",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/22/GravityFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115548"
+        },
+        {
+            "name": "Mammoth",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/d/d3/MammothFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115702"
+        },
+        {
+            "name": "Shadow",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/2d/ShadowFruit.png/revision/latest/scale-to-width-down/350?cb=20231102204401"
+        },
+        {
+            "name": "Venom",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/b/b7/VenomFruit.png/revision/latest/scale-to-width-down/350?cb=20231027120425"
+        },
+        {
+            "name": "Control",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/01/ControlFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115345"
+        },
+        {
+            "name": "Spirit",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/02/SpiritFruit.png/revision/latest/scale-to-width-down/350?cb=20231027120358"
+        },
+        {
+            "name": "Leopard",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/8c/LeopardFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115615"
+        },
+        {
+            "name": "Kitsune",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/c3/KitsuneFruit.png/revision/latest/scale-to-width-down/350?cb=20231215180203"
+        },
+        {
+            "name": "Magma",
+            "image_url": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/73/MagmaFruit.png/revision/latest/scale-to-width-down/350?cb=20231027115640"
+        }
+
+    ]
+}
+

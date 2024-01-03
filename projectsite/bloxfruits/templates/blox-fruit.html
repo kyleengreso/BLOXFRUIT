@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+
+{% block title %}
+BloxFruits
+{% endblock %}
+
+{% block navbar %}
+    <section class="navbar">
+        <a href="{% url 'home' %}" class="btn" > Home </a>
+        <a href="{% url 'blox-fruit' %}" class="btn" id="active"> Blox Fruits </a>
+        <a href="{% url 'fighting-style' %}" class="btn"> Fighting Styles </a>
+        <a href="{% url 'sword' %}" class="btn"> Swords </a>
+        <a href="{% url 'gun' %}" class="btn"> Guns </a>
+        <a href="{% url 'player' %}" class="btn"> Players </a>
+
+        {% if user.is_authenticated %}
+            <a href="/logout" class="login-logout" onclick="return confirmLogout()">Sign Out</a>
+            <script>
+                function confirmLogout() {
+                    var result = confirm("Are you sure you want to sign out?");
+                    if (result) {
+                        alert("Logged out successfully!");
+                    }
+                    return result;
+                }
+            </script>
+        {% else %}
+            <a href="/login" class="login-logout">Sign In</a>
+        {% endif %}
+        
+    </section>
+{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+    <section class="cards-container">
+        {% for bloxfruit in object_list %}
+            <div class="card-box">
+                <div class="card" data-rarity="{{ bloxfruit.rarity }}">
+                    <div class="card-type" id="{{ bloxfruit.fruit_type|lower }}">
+                        <div class="card-image" id="{{ bloxfruit.fruit_type|lower }}-img">
+                            {% for blockfruit in bloxfruit_data %}
+                                {% if blockfruit.name == bloxfruit.name %}
+                                    <img src="{{ blockfruit.image_url }}" alt="{{ bloxfruit.name }} Image">
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                        <div class="card-name">
+                            <h2 class="sbs">{{ bloxfruit.name }}</h2>
+                            <hr />
+                        </div>
+                        <div class="card-rarity">
+                            <h3 class="rarity">Rarity:</h3>
+                            <h3 class="rarity" id="rare-text">{{ bloxfruit.rarity }}</h3>
+                        </div>
+                        <table class="card-stats">
+                            <tbody>
+                                <tr>
+                                    <th>Fruit Type:</th>
+                                    <td>{{ bloxfruit.fruit_type }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+    <div>
+        {% include 'includes/pagination.html' %}
+    </div>
+{% else %}
+    <div class="login-message">
+        <p>Please <a href="/login">Sign In</a> to view more content.</p>
+    </div>
+{% endif %}
+
+{% endblock %}
